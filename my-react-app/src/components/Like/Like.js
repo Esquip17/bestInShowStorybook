@@ -1,7 +1,12 @@
 import React from "react";
 
 const Like = props => {
-  return <div className="like__div">like button</div>;
+  let classList = "like__div";
+
+  if (props.active) {
+    classList += ` like__div-active`;
+  }
+  return <div className={classList} onClick={props.onClick}></div>;
 };
 
 export default Like;

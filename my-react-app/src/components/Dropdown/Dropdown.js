@@ -9,20 +9,20 @@ const Dropdown = props => {
 
   if (types.includes(props.type)) {
     classList += `dropdown__${props.type}`;
-  };
+  }
 
-let optionsFill (props) =>{
+  let optionsFill = () => {
     return props.options.map(option => {
       return <option>{option}</option>;
     });
   };
 
   return (
-    <form>
+    <>
       <select className={classList} id="dropdown">
         {optionsFill()}
       </select>
-    </form>
+    </>
   );
 };
 

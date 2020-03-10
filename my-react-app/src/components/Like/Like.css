@@ -1,15 +1,11 @@
 .like__div {
-  height: 50px;
-  width: 100px;
-  background: blue;
-  color: white;
-  border-radius: 10%;
+  background-image: url("logo_border.png");
+  background-position: center;
+  background-size: cover;
+  height: 40px;
+  width: 45px;
+  padding: 1px;
 }
-.Like_outline {
-  height: 50px;
-  width: 100px;
-  background-color: white;
-  color: white;
-  border-radius: 10%;
-  border-color: blue;
+.like__div-active {
+  background-image: url("logo.png");
 }
