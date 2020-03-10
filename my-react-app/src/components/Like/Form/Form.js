@@ -1,7 +1,7 @@
 import React from "react";
 
 const Form = props => {
-  return <div className="like__div">like button</div>;
+  return <form className="form__form" />;
 };
 
-export default Like;
+export default Form;
