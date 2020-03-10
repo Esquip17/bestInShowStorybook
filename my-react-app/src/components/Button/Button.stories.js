@@ -34,4 +34,5 @@ storiesOf("Button", module)
   .add("dangoutline", () => <Button label="Do something" type="dangoutline" />)
   .add("sucoutline", () => <Button label="Do something" type="sucoutline" />)
   .add("waroutline", () => <Button label="Do something" type="waroutline" />)
-  .add("defoutline", () => <Button label="Do something" type="defoutline" />);
+  .add("defoutline", () => <Button label="Do something" type="defoutline" />)
+  .add("submit", () => <Button label="submit" type="submit" />);
