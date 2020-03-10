@@ -3,5 +3,9 @@ import { storiesOf } from "@storybook/react";
 import Dropdown from "./Dropdown";
 
 storiesOf("Dropdown", module).add("Dropdown White", () => (
-  <Dropdown label="Dropdown White" type="white" />
+  <Dropdown
+    label="Dropdown Gray"
+    type="gray"
+    options={["Select", "A", "B", "C"]}
+  />
 ));
