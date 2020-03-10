@@ -5,3 +5,11 @@
   color: white;
   border-radius: 10%;
 }
+.Like_outline {
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  color: white;
+  border-radius: 10%;
+  border-color: blue;
+}
