@@ -18,11 +18,12 @@ const Dropdown = props => {
   };
 
   return (
-    <>
+    <p>
+      <label>{props.label}: </label>
       <select className={classList} id="dropdown">
         {optionsFill()}
       </select>
-    </>
+    </p>
   );
 };
 
