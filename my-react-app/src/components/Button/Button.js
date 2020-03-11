@@ -30,7 +30,8 @@ const Button = props => {
     "dangoutline",
     "sucoutline",
     "waroutline",
-    "defoutline"
+    "defoutline",
+    "submit"
   ];
   if (types.includes(props.type)) {
     classList += `button-${props.type}`;
