@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Dropdown.css";
 import "./Dropdown.stories.js";
 
@@ -12,8 +12,8 @@ const Dropdown = props => {
   }
 
   let optionsFill = () => {
-    return props.options.map(option => {
-      return <option>{option}</option>;
+    return props.options.map((option, index) => {
+      return <option key={index}>{option}</option>;
     });
   };
 
